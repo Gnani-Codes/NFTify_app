@@ -1,0 +1,171 @@
+.home-container {
+  background-image: url("https://anima-uploads.s3.amazonaws.com/projects/64e8ec47e1c2a81b98b3d09f/releases/64e8ecf5614af8af40953cf4/img/rectangle-9399.png");
+  background-size: cover;
+  width: 100%;
+}
+.home-background {
+  padding: 30px;
+  background: #00000091;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-name {
+  color: #ffffff;
+  font-family: "Helvetica", "Pacifico-Regular";
+  font-size: 18px;
+  font-weight: bold;
+}
+.menu-logo-container {
+  margin-top: -10px;
+  display: flex;
+  align-items: center;
+}
+.menu-icon {
+  color: #ffffff;
+  margin-right: 10px;
+  height: 18px;
+}
+.connect-btn {
+  background: linear-gradient(
+    180deg,
+    rgb(124, 15, 53) 0%,
+    rgb(88, 18, 102) 100%
+  );
+  border-radius: 10px;
+  height: 28px;
+  top: 33px;
+  width: 83px;
+  color: #ffffff;
+}
+.search-input-container {
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 14px;
+  margin-top: 20px;
+  padding: 10px;
+  height: 20px;
+  color: #ffffff;
+}
+.input {
+  font-family: "Poppins", Helvetica;
+  font-size: 13.5px;
+  font-weight: 600;
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  outline: none;
+  width: 90%;
+}
+.pair-heading {
+  font-family: "Work Sans", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  white-space: nowrap;
+  color: #ffffff;
+  margin-top: 20px;
+}
+.loading-view-container {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer {
+  background-color: #f30050;
+  height: 43px;
+}
+.header-search {
+  display: none;
+}
+.large-header-search {
+  display: flex;
+}
+.failure-msg {
+  color: #ffffff;
+}
+.search-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #ffffff;
+}
+.side-bar {
+  display: none;
+}
+.d-none {
+  display: flex;
+}
+.pair-container {
+  max-height: 70vh;
+  overflow: auto;
+}
+.pair-address-btn {
+  display: flex;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  color: #ffffff;
+  font-size: 18px;
+  margin: 10px;
+}
+.pair-btn-img {
+  height: 25px;
+  padding-right: 10px;
+}
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+}
+.active-button {
+  background: #f30050;
+}
+.pair-d-flex {
+  display: flex;
+  align-items: center;
+}
+.contact-section {
+  margin-top: auto;
+  margin-bottom: 40px;
+  width: 70%;
+  padding-left: 30px;
+}
+.contact-icon {
+  color: #f30050;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-container {
+    background-image: url("https://anima-uploads.s3.amazonaws.com/projects/64e8ec47e1c2a81b98b3d09f/releases/64ea0722d0fdd67ea0b57166/img/rectangle-9398.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+  }
+  .header-search {
+    display: flex;
+  }
+  .large-header-search {
+    display: none;
+  }
+  .d-none {
+    display: none;
+  }
+  .side-bar {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background: #292929;
+    padding-top: 30px;
+  }
+  .home-background {
+    width: 80%;
+  }
+}
