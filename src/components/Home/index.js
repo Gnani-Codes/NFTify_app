@@ -7,6 +7,7 @@ import {
   AiFillFacebook,
 } from "react-icons/ai";
 import Loader from "react-loader-spinner";
+import { ConnectButton } from "@rainbow-me/rainbowkit";
 
 import PriceCard from "../PriceCard";
 import "./index.css";
@@ -257,6 +258,7 @@ class Home extends Component {
               </div>
 
               <button className="connect-btn">Connect</button>
+              <ConnectButton/>
             </div>
 
             <div className="search-input-container large-header-search">
